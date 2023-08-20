@@ -25,7 +25,7 @@ export default function RootLayout({ children }) {
         <main className='flex flex-col items-center w-[100%]'>
           {children}
         </main>
-        <footer className='flex flex-row justify-center items-center w-[100%] mb-2 bg-zinc-400 mt-auto'>
+        <footer className='flex flex-row justify-center items-center w-[100%] bg-zinc-400 mt-auto'>
         <nav className='py-3 container flex flex-row-reverse justify-between items-center'>
             <p className='font-extrabold text-2xl'>Logo.</p>
             <ul className='flex flex-row justify-center items-center gap-5 font-medium'>
